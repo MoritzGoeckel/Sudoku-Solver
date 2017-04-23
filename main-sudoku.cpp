@@ -4,7 +4,6 @@
 
 using namespace std;
 
-//ausgabe funktion
 void ausgabe(string alles[9][9])
 {
       int i = 0, a =0;
@@ -121,9 +120,7 @@ int main(int argc, char *argv[])
         {"5"," "," ", "9", " ", " ", " ", " ", " "},
         {" ","9","6", " ", "7", " ", " ", " ", "8"},
     };                           
-    
-    //cout << all[3][4] << endl;
-    
+        
     ausgabe(all);
     
     cout << "Was wollen sie tun? test/loesen"<<endl;
